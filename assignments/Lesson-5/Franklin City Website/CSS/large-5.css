@@ -1,0 +1,24 @@
+@media screen and (min-width: 64em){
+    
+    main {
+        width: 950px;
+        margin: auto;
+    }
+    
+    .topnav {
+        font-size: .75em;
+    }   
+        
+    #articles {
+        display: block;
+        text-align: left;
+        margin-top: 30px;
+        clear: both;
+    } 
+    
+    article {
+        display: inline-block;
+        width: 150px;
+        padding: 20px;
+    }  
+}
