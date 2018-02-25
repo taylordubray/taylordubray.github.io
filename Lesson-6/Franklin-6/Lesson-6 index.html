@@ -15,21 +15,26 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="Images/Under_the_weather-min.png" alt="Under The Weather">
+        
+<!-- adjust screen size by using middle, vertical bar -->
+<header>
+    <img src="Images/Under_the_weather-min.png" alt="Under The Weather">
             <h1>Under The Weather</h1>
-        </header>
-
+    <h2>Menu</h2>
+    <!--<div class="hamburger" onclick="toggleHam()"></div>-->
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+</header>
 <nav>
-	<ul class="navigation">
-	            <li id="home"><a href="http://github.com/taylordubray/lesson-5/UnderTheWeather">Home</a></li>
+    <ul class="navigation">
+                <li><a href="http://github.com/taylordubray/lesson-5/UnderTheWeather">Home</a></li>
                 <li><a href="Lesson-5%20index.html">Franklin</a></li>
                 <li><a href="#">Greenville</a></li>  
                 <li><a href="#">Springfield</a></li>
                 <li><a href="#">Storm Center</a></li>
                 <li><a href="#">Gallery</a></li>
-	</ul>
+             </ul>
 </nav>        
+        
         <main>
             <picture>
                 <source media="(max-width: 860px)" srcset="Images/Small-min.jpg">
