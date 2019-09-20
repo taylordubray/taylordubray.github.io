@@ -19,7 +19,7 @@ h1 {
 h2 {
     font-size: /* x.xrem */;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 3px solid #bbb;
 }
 
 header, main, footer {
