@@ -9,29 +9,39 @@ body {
     line-height: 32px;
     font-family: /* Ubuntu, sans-serif */;
     color: /* ##003366 */;
+    font-family: 'Big Shoulders Display', cursive;
+
 }
 
 h1 {
     font-size: /* x.xrem  (rem is a unit of measure) */;
     color: /* #003366 */;
+    font-family: 'Big Shoulders Display', cursive;
+
 }
 
 h2 {
     font-size: /* x.xrem */;
     text-align: center;
     border-bottom: 3px solid #bbb;
+    font-family: 'Big Shoulders Display', cursive;
+
 }
 
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    font-family: 'Big Shoulders Display', cursive;
+
 }
 
 header, footer, footer a {
     text-align: center;
     background-color: #003366/* */;
     color: whitesmoke;
+    font-family: 'Big Shoulders Display', cursive;
+
 }
 
 header img {
