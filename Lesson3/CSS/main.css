@@ -1,0 +1,18 @@
+body {
+    font-size: 18px;
+    font-family: 'Nova Square', cursive;
+}
+    main {
+    margin: 10px;
+    width: 960px
+    }
+    h1 {
+        font-family: 'Nova Square', cursive;
+    }
+    p{
+        border: 1px;
+        padding: 7px;
+        background-color: #ddd;
+        text-align: justify;
+        font-family: 'Nova Square', cursive;
+}
