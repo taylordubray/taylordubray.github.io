@@ -47,17 +47,17 @@
 
     .navigation li a {
         font-weight:500;
-        background:rgb(135, 214, 155);
-        color:rgb(123, 185, 152);
+        background:rgb(82, 162, 194);
+        color:rgb(82, 162, 194);;
     }
     footer{
         background:white;
         max-width: 1200px;
     }
     footer p{
-        background:rgb(81, 197, 143);
+        background:rgb(82, 162, 194);
         padding:1rem;
-        border-top:1px solid rgb(107, 173, 118);
-        border-bottom:1px solid rgb(127, 240, 165);
+        border-top:1px solid rgb(82, 162, 194);
+        border-bottom:1px solid rgb(82, 162, 194);
     }
 }
