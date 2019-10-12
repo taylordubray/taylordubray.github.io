@@ -1,0 +1,63 @@
+@media only screen and (min-width: 60em) {
+    header picture{
+        display:inline;
+    }
+    header h1 {
+        font-size: 2.5rem;
+        margin:0;
+        text-align:center;
+        display: inline;
+    }
+    header h2 {
+        margin:0;
+        font-size: 1.5rem;
+    }
+    main{
+        max-width:1200px;
+    }
+    main section h2 {
+        font-size: 1.5rem;
+    }
+
+    main section h3 {
+        font-size: 1.3rem;
+    }
+
+    main section h4 {
+        font-size: 1.3rem;
+    }
+    
+    /* Horizontal Menus */
+    /* Flex */
+    nav ul{
+        max-width: 1200px;
+        margin:0 auto;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        font-weight:500;
+        background:rgb(135, 214, 155);
+        color:rgb(123, 185, 152);
+    }
+    footer{
+        background:white;
+        max-width: 1200px;
+    }
+    footer p{
+        background:rgb(81, 197, 143);
+        padding:1rem;
+        border-top:1px solid rgb(107, 173, 118);
+        border-bottom:1px solid rgb(127, 240, 165);
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Page &#124; Taylor DuBray &#124; BYU-Idaho</title>
+    <meta name="description"
+        content="Preston town page for wwweather.net in CIT 230: Web Front-End Development at BYU-Idaho.">
+    <link
+        href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="/lesson4/css/small.css">
+    <link rel="stylesheet" type="text/css" href="/lesson4/css/medium.css">
+    <link rel="stylesheet" type="text/css" href="/lesson4/css/large.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/lesson4/js/date.js"></script>
+    <script src="/lesson4/js/main.js"></script>
+</head>
+
+<body onload="UpdateDates()">
+    <header>
+        <picture>
+            <img src="/lesson4/images/weathersite-logo.png">
+        </picture>
+        <h1>World Wide Weather</h1>
+        <h2>The most complete weather system for your local and future weather forecasts.</h2>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#preston">Preston</a></li>
+            <li><a href="#sodasptrings">Soda Springs</a></li>
+            <li><a href="#fishhaven">Fish Haven</a></li>
+            <li><a href="#stormcenter">Storm Center</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+<h2>Preston Idaho</h2>
+<div class="contentbox">Hero w/ weather summary</div>
+<div class="contentbox forecast">5 Day Forecast</div>
+<div class="contentbox">Article</div>
+<div class="contentbox">Contact Information</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightdate"></span> World Wide Weather &#124; Taylor DuBray &#124; Eagle Mountain Utah &#124; <a
+                href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+                <br><span id="lastModDate"></span>
+            </p>
+    </footer>
+    <p class="w3validator">
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+        </a>
+    </p>
+
+</body>
+
+</html>

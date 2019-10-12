@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square&display=swap');
+
 body {
     font-size: 18px;
-    font-family: 'Nova Square', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Big Shoulders Display', cursive;
 }
     main {
     margin: 10px;
     width: 960px
     }
     h1 {
-        font-family: 'Nova Square', cursive;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Big Shoulders Display', cursive;  
     }
     p{
         border: 1px;
         padding: 7px;
         background-color: #ddd;
         text-align: justify;
-        font-family: 'Nova Square', cursive;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Big Shoulders Display', cursive;
 }
