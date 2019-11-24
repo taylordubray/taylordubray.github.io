@@ -1,0 +1,274 @@
+@media only screen and (min-width: 60em) {   
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+    header picture{
+        display:inline;
+    }
+    header h1 {
+        font-size: 2.5rem;
+        margin:0;
+        text-align:center;
+        display: inline;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+    header h2 {
+        margin:0;
+        font-size: 1.5rem;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    main{
+        max-width:1200px;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+    main section h2 {
+        font-size: 1.5rem;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+
+    main section h3 {
+        font-size: 1.3rem;
+        font-family: 'Nova Mono', monospace;
+
+    }
+
+    main section h4 {
+        font-size: 1.3rem;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+    .container{
+        max-width: 900px;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .ContainerTitles{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #FF7300;
+        font-weight: 700;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+    .container-principal-img{
+        width: 100%;
+    }
+    .container-weather{
+        width: 250px;
+        padding: 20px;
+        position: absolute;
+        background: rgba(0, 105, 170, 0.8);
+        font-size: 12pt;
+        color:white;
+        margin-top: 3%;
+        margin-left: 3%;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    
+        /* Shadow Box */
+        -webkit-box-shadow: 10px 10px 26px -4px rgba(0,0,0,0.9);
+        -moz-box-shadow: 10px 10px 26px -4px rgba(0,0,0,0.9);
+        box-shadow: 10px 10px 26px -4px rgba(0,0,0,0.9);
+    }
+    .container-weather h2{
+        margin: 0%;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .text-summary{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-weight: 600;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .text-summary-color{
+        color: #E5C731;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+    hr{
+        width: 100%;
+        border: 1px solid white;
+        margin-bottom: 5%;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+    .Container-forecast{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+    }
+    .Container-forecast table{
+        max-width: 550px;
+        text-align: center;
+        border: 1px solid #4591C1;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .style-header-table{
+        height: 50px;
+        font-weight: 600;
+        background: #ECD669;
+        color:#323232;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .Titles-section{
+        font-size: 14pt;
+        font-weight: 700;
+        color: #004060;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    
+    }
+    .Text-forecast{
+        font-weight: 600;
+        font-size: 14pt;
+        color: #0069AA;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .img-icon-forecast{
+        width: 50%;
+    }
+    .style-body-table{
+        background: #D0E3EF;
+    }
+    article{
+        width: 100%;
+        margin-top: 5%;
+        border: 1px solid #4591C1;
+        padding: 0%;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .container-article{
+        padding: 3%;
+    }
+    .img-container-article{
+        width: 38%;
+        float: right;
+        margin: 3% 3% 2% 2%;
+    
+        -webkit-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.44);
+        box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.44);
+    }
+    .seccion-info{
+        width: 100%;
+        display: flex;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        background: #A2C8E0;
+        color: white;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .col-50{
+        width: 50%;
+        padding: 3%;
+    }
+    .info{
+        padding: 5%;
+    }
+    .iconos{
+        width: 8%;
+        padding: 0% 1% 0% 1%;
+    }
+    .ItalicText{
+        font-style: italic;
+    }
+    
+    /* Footer */
+    
+    footer{
+        background: #004060;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    .footerText{
+        font-size: 12pt;
+        color: white;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    }
+    
+    /* Alert */
+    .alert{
+        width: 100%;
+        padding: 1% 0% 1% 0%;
+        text-align: center;
+        background: #E5C731;
+        color: #323232;
+        position: relative;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+    
+        -webkit-box-shadow: 0px 14px 10px -2px rgba(0,0,0,0.45);
+        -moz-box-shadow: 0px 14px 10px -2px rgba(0,0,0,0.45);
+        box-shadow: 0px 14px 10px -2px rgba(0,0,0,0.45);
+    }
+    .alertText{
+        letter-spacing: 2px;
+    }
+    #alertFridays{
+        display: none;
+    }
+    
+    /* Horizontal Menus */
+    /* Flex */
+    nav ul{
+        max-width: 1200px;
+        margin:0 auto;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        font-weight:500;
+        background:rgb(231, 231, 231);
+        color:rgb(18, 94, 180);;
+    }
+    footer{
+        background:white;
+        max-width: 1200px;
+    }
+    footer p{
+        background:rgb(82, 162, 194);
+        padding:1rem;
+        border-top:1px solid rgb(82, 162, 194);
+        border-bottom:1px solid rgb(82, 162, 194);
+    }
+    
+}

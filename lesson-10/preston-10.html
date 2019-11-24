@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Page &#124; Taylor DuBray &#124; BYU-Idaho</title>
+    <meta name="description"
+        content="Preston town page for RainOrSnow.net in CIT 230: Web Front-End Development at BYU-Idaho.">
+    <link
+        href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="/Lesson-10/css/small.css">
+    <link rel="stylesheet" type="text/css" href="/lesson-10/css/medium.css">
+    <link rel="stylesheet" type="text/css" href="/lesson-10/css/large.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+       
+    <div class="alert" id="alertSaturday">
+        <h3 class="alertText">On Saturday's The City of Preston holds a Pancake Breakfast in the park!<br>9:00 A.M Saturday at the city park.</h3>
+    </div>
+
+<body onload="UpdateDates()">
+    <header>
+        <picture>
+            <img src="/Lesson6/images/WeatherSite-Logo.png">
+        </picture>
+        <h1>Rain OR Snow</h1>
+        <h2> We provide the most current weather conditions on the most beautiful ski resorts in the world.</h2>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="Home">Home</a></li>
+            <li><a href="#Preston" class="active">Preston</a></li>
+            <li><a href="#Sodasptrings">Soda Springs</a></li>
+            <li><a href="#Fishhaven">Fish Haven</a></li>
+            <li><a href="#Stormcenter">Storm Center</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main><!--weather summary and hero image--> 
+        <h2>Preston Idaho</h2>
+        <div class="container1">
+            <picture>
+                <source srcset="Lesson-10/Images/Hero" media = "(max-width:500px)">
+                <source srcset="images/heroimage2-760.jpg" media = "(min-width:520px) and (max-width:959px)" >
+                <source srcset="images/heroimage2-950.jpg" media = "(min-width:960px)">
+                <img class="heroImg" src="images/heroimage2.jpg" alt="Preston Town">
+            </picture>
+            <table class="weatherSum">
+                <tr>
+                    <th colspan="2">Weather Summary</th>
+                </tr>
+                <tr>
+                    <td>Currently :</td>
+                    <td><span id="currently"></span></td>
+                </tr>
+                <tr>
+                    <td>High :</td>
+                    <td> <span id="temp"></span></td>
+                </tr>
+                <tr>
+                    <td>Wind Speed:</td>
+                    <td><span id="windSpeed"></span></td>
+                </tr>
+                <tr>
+                    <td>Wind Chill :</td>
+                    <td><span id="windChill"></span></td>
+                </tr>
+                <tr>
+                    <td>Humidity :</td>
+                    <td><span id="humidity"></span></td> 
+                </tr>
+            </table>
+        </div>
+
+         <!--5day forecast goes here-->
+         <section class="forecast-area">
+            <h2>5 Day Forecast</h2>
+            <div class="fiveday">
+                <div class="forecast">
+                    <span class="weekday" id="day1"></span>
+                    <img src="#" alt="" id="icon1">
+                    <span class="weather-data" id="temp1"></span>
+                </div>
+                <div class="forecast">
+                    <span class="weekday" id="day2"></span>
+                    <img src="#" alt="" id="icon2">
+                    <span class="weather-data" id="temp2"></span>
+                </div>
+                <div class="forecast">
+                    <span class="weekday" id="day3"></span>
+                    <img src="#" alt="" id="icon3">
+                    <span class="weather-data" id="temp3"></span>
+                </div>
+                <div class="forecast">
+                    <span class="weekday" id="day4"></span>
+                    <img src="#" alt="" id="icon4">
+                    <span class="weather-data" id="temp4"></span>
+                </div>
+                <div class="forecast">
+                    <span class="weekday" id="day5"></span>
+                    <img src="#" alt="" id="icon5">
+                    <span class="weather-data" id="temp5"></span>
+                </div>
+            </div>
+        </section>
+
+        <div class="article-area"><!--article area-->
+            <img class="articleimg" src="images/zion-park-139012_640.jpg" alt="Winter Season" >
+            <div class="article-holder">
+                <h3>Be prepared to stay safe and healthy in winter</h3>
+                <h5><i>Written by CDC :Centers for Disease Control and Prevention</i></h5>
+                <p>Winter storms and cold temperatures can be dangerous. Stay safe and healthly by planning ahead. Prepare your home and cars. Prepare for power outages and outdoor activies. </p>
+                <p><strong>Take These Steps for Your Home:</strong> </p>
+                <p>Many people prefer to remain indoors during winter, but staying inside is no guarantee of safety. Take these steps to keep your home safe and warm during the winter months.</p>
+
+                <ul>
+                    <li>Winterize your home.
+                    <ul>
+                        <li>Install weather stripping, insulation, and storm windows.</li>
+                        <li>Insulate water lines that run along exterior walls.</li>
+                        <li>Clean out gutters and repair roof leaks.</li>
+                    </ul>
+                    </li>
+                    <li>Check your heating systems.
+                    <ul>
+                        <li>Have your heating system serviced professionally to make sure that it is clean, working properly, and ventilated to the outside.</li>
+                        <li>Inspect and clean fireplaces and chimneys.</li>
+                        <li>Install a smoke detector. Test batteries monthly and replace them twice a year.</li>
+                        <li>Have a safe alternate heating source and alternate fuels available.</li>
+                        <li>Prevent carbon monoxide (CO) emergencies.</li>
+                    </ul>
+                    </li>
+                </ul>
+                <span><a class="readFullArticle" href="https://www.cdc.gov/features/winterweather/index.html" target="_blank"> continue to read full article...</a></span>
+            </div>
+        </div>
+
+        <!--Contact Info-->
+        <section class="ContactInfo">
+            <div class="col-50" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7750.0528196767345!2d-111.88008022051399!3d42.09535335694314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1571417917029!5m2!1sen!2smx" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="col-50 info">
+                <h3>RainOrSnow.com</h3>
+                <p>&#9880; 1234 Preston ID 83263</p>
+                <p>&#9742; (801)664-4124</p>
+                <p>&#9993; contact@RainOrSnow.com</p>
+                <div class="SocialMedia">
+                    <a href="#">
+                        <img class="iconos" src="Images/Facebook.png" alt="Facebook">
+                    </a>
+
+                    <a href="#">
+                        <img class="iconos" src="Images/Youtube.png" alt="YouTube">
+                    </a>
+
+                    <a href="#">
+                        <img class="iconos" src="Images/Instagram.png" alt="Instagram">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+</section>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Vidaloka',
+                        'Poppins'
+                    ]
+                }
+            });
+        </script>
+
+        <script src="js/getprestonweather.js"></script>
+        <script src="js/date.js"></script>
+        <script src="js/menutoggle.js"></script>
+
+    </body>
+
+</html>

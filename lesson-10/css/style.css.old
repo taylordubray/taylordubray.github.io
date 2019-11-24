@@ -1,0 +1,794 @@
+.townbanner img {
+
+    width: 100%;
+
+}
+
+.townbanner {
+
+    margin-top: -150px;
+
+    margin-bottom: 100px;
+
+}
+
+.articleimage {
+
+    max-width: 75%;
+
+}
+
+.contact a:link {
+
+    color: #00303F;
+
+}
+
+.contact a:visited {
+
+    color: #00303F;
+
+}
+
+.contact a:hover {
+
+    color: #00303F;
+
+}
+
+.contact a:active {
+
+    color: #00303F;
+
+}
+
+footer a {
+
+    text-decoration: none;
+
+}
+
+footer a:link {
+
+    color: #FFFFFF;
+
+}
+
+footer a:visited {
+
+    color: #FFFFFF;
+
+}
+
+footer a:hover {
+
+    color: #FFFFFF;
+
+}
+
+footer a:active {
+
+    color: #FFFFFF;
+
+}
+
+.contactlinebreaks {
+
+    display: none;
+
+}
+
+.contacttext {
+
+    text-align: left;
+
+}
+
+.bannerimage {
+
+    margin-top: -170px;
+
+    margin-bottom: 20px;
+
+}
+
+.pancakehide {
+
+    display: none;
+
+    text-align: center;
+
+    background-color: yellow;;
+
+}
+
+.pancakeshow {
+
+    display: block;
+
+    text-align: center;
+
+    background-color: yellow;;
+
+}
+
+.authorattribution {
+
+    font-style: italic;
+
+}
+
+.highlight {
+
+    color: #FFFFFF;
+
+}
+
+.floatingcurrentweather {
+
+    position: relative;
+
+    top: 20px;
+
+    left: 30px;
+
+    max-width: 200px;
+
+    background-color: rgba(0, 48, 63, .9);
+
+    color: #CAE4DB;
+
+    padding: 10px;
+}
+
+.officemap {
+
+    display: none;
+
+    border: 1px solid #000000;
+
+}
+
+.fivedaytable {
+
+    display: none;
+
+}
+
+.bodycontent img {
+
+    float: none;
+
+}
+
+.contactparent {
+
+    max-width: 960px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.contact {
+
+    padding-top: 20px;
+
+    display: flex;
+
+    align-content: center;
+
+    justify-content: space-evenly;
+
+    padding-bottom: 20px;
+
+    background-color: #CAE4DB;
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+}
+
+.bannerimage {
+
+    max-width: 100%;
+
+}
+
+td, th {
+
+    border: 1px solid #000000;
+
+}
+
+td {
+    text-align: center;
+}
+
+th {
+
+    color: #00303F;
+
+    background-color: #CAE4DB;
+
+    padding: 8px;
+
+    width: 60px;
+
+
+}
+
+table {
+
+    border-collapse: collapse;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    max-width: 67%;;
+
+}
+
+main h3 {
+
+    text-align: center;
+
+}
+
+header {
+
+    padding-top: 20px;
+
+    background-color: #7A9D96;
+
+}
+
+header img {
+
+    float: none; 
+
+    position: relative;
+
+    left: 50px;
+
+    border: 7px solid #FFFFFF;
+
+    border-radius: 7px;
+
+    max-width: 50%;
+}
+
+body {
+
+    background-color: #FFFFFF;
+
+    padding: 0px; 
+
+    margin: 0px;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*#CAE4DB
+#DCAE1D*/
+
+/*header img {
+
+    border: 7px solid #FFFFFF;
+
+    border-radius: 5px;
+
+}*/
+
+.logodiv {
+
+    padding-right: 20px;
+    
+}
+
+header h1 {
+
+    padding-left: 20px;
+    
+    text-align: center;
+
+    position: relative;
+
+    /*top: 10px;*/
+
+    font-size: 1.2em;
+
+    right: 50px;
+
+}
+
+header h3 {
+
+    padding-left: 0px;
+
+    position: relative;
+
+    bottom: 10px;
+
+    right: 24px;
+
+    font-size: .9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'Vidaloka', serif;
+
+    color: #00303F;
+
+}
+
+.logoflex {
+
+    display: flex;
+
+    align-items: center; 
+
+    justify-content: center;
+
+    max-width: 960px;
+
+    margin-left: auto; 
+
+    margin-right: auto;
+
+    flex-direction: row;
+
+}
+
+nav ul {
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center;
+
+    list-style: none; 
+
+    flex-direction: column; 
+
+    padding-left: 0px;
+}
+
+.navigation li {
+
+    display: none; 
+
+}
+
+.navigation li:first-child {
+
+    display: block; 
+
+    background-color: #00303F;
+
+}
+
+a.menubutton:link {
+
+    color: #FFFFFF;
+
+}
+
+a.menubutton:visited {
+
+    color: #FFFFFF;
+
+}
+
+a.menubutton:hover {
+
+    color: #FFFFFF;
+
+}
+
+a.menubutton:active {
+
+    color: #FFFFFF;
+
+}
+
+nav {
+
+    background-color: #CAE4DB;
+
+    min-height: 50px;
+}
+
+nav li {
+
+    width: 100%;
+
+    display: flex;
+
+}
+
+nav a {
+
+    text-decoration: none; 
+
+    display: block;
+
+    padding: 1em; 
+
+    text-align: center;
+
+}
+
+nav a:link {
+
+    color: #00303F;
+
+}
+
+nav a:visited {
+
+    color: #00303F;
+
+}
+
+nav a:hover {
+
+    color: #CAE4DB;
+
+    background-color: #00303F;
+
+}
+
+nav a:active {
+
+    color: #CAE4DB;
+
+    background-color: #00303F;
+
+}
+
+a.currentpage:link {
+
+    color: #00303F;
+
+    background-color: #7A9D96;
+
+}
+
+a.currentpage:visited {
+    
+    color: #00303F;
+
+    background-color: #7A9D96;
+    
+}
+
+a.currentpage:hover {
+    
+    color: #00303F;
+
+    background-color: #7A9D96;
+    
+}
+
+a.currentpage:active {
+    
+    color: #00303F;
+
+    background-color: #7A9D96;
+    
+}
+
+footer {
+
+    /*height: 80px;*/
+
+    position: relative; 
+
+    bottom: 0px; 
+
+    left: 0px; 
+
+    right: 0px; 
+
+    color: #00303F;
+
+    text-align: center; 
+
+    max-width: 960px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.footercentering {
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    max-width: 960px; 
+
+    margin-left: 10px; 
+
+    margin-right: 10px; 
+
+    background-color: #7A9D96;
+
+}
+
+.wrapper {
+
+    min-height: calc(100vh - 200px);
+
+    /*padding-bottom: 200px; */
+
+    position: relative; 
+
+}
+
+main {
+
+    max-width: 960px; 
+
+    margin-left: auto; 
+
+    margin-right: auto; 
+
+}
+
+.bodycontent {
+
+    /*font-style: italic;*/
+
+    padding-top: 10px; 
+
+    padding-bottom: 10px;
+    
+    border: 1px solid #7A9D96;
+
+    margin-top: 8px; 
+
+    margin-bottom: 8px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    color: #00303F;
+
+    background-color: #CAE4DB;
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+main h2 {
+
+    text-align: center; 
+
+}
+
+.responsive li {
+
+    display: block;
+
+}
+
+.weather-gallery-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    
+    padding-bottom: 20px;
+
+}
+
+.weather-gallery-title {
+
+    text-align: center;
+
+}
+
+.form-label {
+
+    display: inline-block;
+
+    width: 200px;
+
+    /*text-align: right;*/
+
+}
+
+.form-container {
+
+    color: #00303F;
+
+    margin-top: 60px;
+
+    margin-bottom: 60px;
+
+    padding: 40px;
+
+    background-color: #CAE4DB;
+
+    border-radius: 20px;
+
+    border: 1px solid #00303F;
+
+    box-shadow: 10px 10px 10px #7A9D96;
+
+    max-width: 700px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+#thank-you-image {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    max-width: 50px;
+
+}
+
+@keyframes fade {
+	
+	from { opacity: 0; }
+	
+	to { opacity: 1; } 
+	
+}
+
+@-moz-keyframes fade {
+	
+	from { opacity: 0; }
+	
+	to { opacity: 1; } 
+	
+}
+
+@-webkit-keyframes fade {
+	
+	from { opacity: 0; }
+	
+	to { opacity: 1; } 
+	
+}
+
+@-ms-keyframes fade {
+	
+	from { opacity: 0; }
+	
+	to { opacity: 1; } 
+	
+}
+
+@-o-keyframes fade {
+	
+	from { opacity: 0; }
+	
+	to { opacity: 1; } 
+
+}
+
+
+
+
+
+div.town-data {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.town-data img {
+
+    max-width: 100%;
+
+}
+
+section.town-data-section {
+
+    max-width: 960px;
+
+    color: #00303F;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    padding: 30px;
+
+    background-color: #CAE4DB;
+
+    /*border-radius: 20px;*/
+
+    border: 1px solid #00303F;
+
+    box-shadow: 10px 10px 10px #7A9D96;
+
+    text-align: center;
+
+}
+
+.town-data-section img {
+
+    box-shadow: 10px 10px 10px #7A9D96;
+
+}
+
+.hidden-line-break {
+
+    display: block;
+
+}
+
+div.about-bluweather {
+
+    max-width: 880px;
+
+    color: #00303F;
+
+    margin-top: 60px;
+
+    margin-bottom: 80px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding: 30px;
+
+    background-color: #CAE4DB;
+
+    /*border-radius: 20px;*/
+
+    border: 1px solid #00303F;
+
+    box-shadow: 10px 10px 10px #7A9D96;
+
+}
+
+.about-bluweather a:link {
+
+    color: #00303F;
+
+}
+
+.about-bluweather a:visited {
+
+    color: #00303F;
+
+}
+
+.about-bluweather a:hover {
+
+    color: #7A9D96;
+
+}
+
+.about-bluweather a:active {
+
+    color: #7A9D96;
+
+}
