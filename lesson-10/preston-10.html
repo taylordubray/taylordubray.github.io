@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="/Lesson-10/css/small.css">
     <link rel="stylesheet" type="text/css" href="/lesson-10/css/medium.css">
     <link rel="stylesheet" type="text/css" href="/lesson-10/css/large.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/lesson-10/css/style.css.old">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
@@ -27,7 +27,7 @@
 <body onload="UpdateDates()">
     <header>
         <picture>
-            <img src="/Lesson6/images/WeatherSite-Logo.png">
+            <img src="/lesson-10/Images/WeatherSite-Logo.png">
         </picture>
         <h1>Rain OR Snow</h1>
         <h2> We provide the most current weather conditions on the most beautiful ski resorts in the world.</h2>
@@ -44,104 +44,115 @@
         </ul>
     </nav>
 
-    <main><!--weather summary and hero image--> 
+    <main>
+
         <h2>Preston Idaho</h2>
-        <div class="container1">
+
+        <div class="floatingcurrentweather">
+
+                Weather Summary
+                <hr>
+                Currently: <span id="current-weather-condition" class="highlight"></span>
+                <br>
+                High: <span class="highlight"><span id="current-weather-temperature"></span>° F</span>
+                <br>
+                Wind Chill: <span class="highlight"><span id="windchill"></span></span>
+                <br>
+                Humidity: <span id="current-weather-humidity" class="highlight"></span>
+                <br>
+                Wind Speed: <span class="highlight"><span id="current-weather-wind-speed"></span> MPH</span>
+
+        </div>
+
+        <div class="townbanner">
             <picture>
-                <source srcset="Lesson-10/Images/Hero" media = "(max-width:500px)">
-                <source srcset="images/heroimage2-760.jpg" media = "(min-width:520px) and (max-width:959px)" >
-                <source srcset="images/heroimage2-950.jpg" media = "(min-width:960px)">
-                <img class="heroImg" src="images/heroimage2.jpg" alt="Preston Town">
+                <source media="(max-width: 768px)" srcset="images/prestonsmall.jpg">
+                <source media="(max-width: 992px)" srcset="images/prestonmedium.jpg">
+                <img src="Images/prestonlarge.jpg" alt="Lake near preston">
             </picture>
-            <table class="weatherSum">
-                <tr>
-                    <th colspan="2">Weather Summary</th>
-                </tr>
-                <tr>
-                    <td>Currently :</td>
-                    <td><span id="currently"></span></td>
-                </tr>
-                <tr>
-                    <td>High :</td>
-                    <td> <span id="temp"></span></td>
-                </tr>
-                <tr>
-                    <td>Wind Speed:</td>
-                    <td><span id="windSpeed"></span></td>
-                </tr>
-                <tr>
-                    <td>Wind Chill :</td>
-                    <td><span id="windChill"></span></td>
-                </tr>
-                <tr>
-                    <td>Humidity :</td>
-                    <td><span id="humidity"></span></td> 
-                </tr>
-            </table>
         </div>
 
-         <!--5day forecast goes here-->
-         <section class="forecast-area">
-            <h2>5 Day Forecast</h2>
-            <div class="fiveday">
-                <div class="forecast">
-                    <span class="weekday" id="day1"></span>
-                    <img src="#" alt="" id="icon1">
-                    <span class="weather-data" id="temp1"></span>
-                </div>
-                <div class="forecast">
-                    <span class="weekday" id="day2"></span>
-                    <img src="#" alt="" id="icon2">
-                    <span class="weather-data" id="temp2"></span>
-                </div>
-                <div class="forecast">
-                    <span class="weekday" id="day3"></span>
-                    <img src="#" alt="" id="icon3">
-                    <span class="weather-data" id="temp3"></span>
-                </div>
-                <div class="forecast">
-                    <span class="weekday" id="day4"></span>
-                    <img src="#" alt="" id="icon4">
-                    <span class="weather-data" id="temp4"></span>
-                </div>
-                <div class="forecast">
-                    <span class="weekday" id="day5"></span>
-                    <img src="#" alt="" id="icon5">
-                    <span class="weather-data" id="temp5"></span>
-                </div>
-            </div>
-        </section>
+        <div class="fivedaytable">
 
-        <div class="article-area"><!--article area-->
-            <img class="articleimg" src="images/zion-park-139012_640.jpg" alt="Winter Season" >
-            <div class="article-holder">
-                <h3>Be prepared to stay safe and healthy in winter</h3>
-                <h5><i>Written by CDC :Centers for Disease Control and Prevention</i></h5>
-                <p>Winter storms and cold temperatures can be dangerous. Stay safe and healthly by planning ahead. Prepare your home and cars. Prepare for power outages and outdoor activies. </p>
-                <p><strong>Take These Steps for Your Home:</strong> </p>
-                <p>Many people prefer to remain indoors during winter, but staying inside is no guarantee of safety. Take these steps to keep your home safe and warm during the winter months.</p>
+        <h3>5 Day Forecast</h3>
 
-                <ul>
-                    <li>Winterize your home.
-                    <ul>
-                        <li>Install weather stripping, insulation, and storm windows.</li>
-                        <li>Insulate water lines that run along exterior walls.</li>
-                        <li>Clean out gutters and repair roof leaks.</li>
-                    </ul>
-                    </li>
-                    <li>Check your heating systems.
-                    <ul>
-                        <li>Have your heating system serviced professionally to make sure that it is clean, working properly, and ventilated to the outside.</li>
-                        <li>Inspect and clean fireplaces and chimneys.</li>
-                        <li>Install a smoke detector. Test batteries monthly and replace them twice a year.</li>
-                        <li>Have a safe alternate heating source and alternate fuels available.</li>
-                        <li>Prevent carbon monoxide (CO) emergencies.</li>
-                    </ul>
-                    </li>
-                </ul>
-                <span><a class="readFullArticle" href="https://www.cdc.gov/features/winterweather/index.html" target="_blank"> continue to read full article...</a></span>
-            </div>
+        <table>
+            <tr>
+                <th id="day1-day-name">Mon</th>
+                <th id="day2-day-name">Tue</th>
+                <th id="day3-day-name">Wed</th>
+                <th id="day4-day-name">Thu</th>
+                <th id="day5-day-name">Fri</th>
+            </tr>
+            <tr>
+                <td>
+                    <img id="day1-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                    <br>
+                    <span id="day1-temperature"></span>° F
+                </td>
+                <td>
+                    <img id="day2-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                    <br>
+                    <span id="day2-temperature"></span>° F
+                </td>
+                <td>
+                    <img id="day3-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                    <br>
+                    <span id="day3-temperature"></span>° F
+                </td>
+                <td>
+                    <img id="day4-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                    <br>
+                    <span id="day4-temperature"></span>° F
+                </td>
+                <td>
+                    <img id="day5-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                    <br>
+                    <span id="day5-temperature"></span>° F
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+        <div class="bodycontent">
+            <img src="Images/prestonlake.jpg" alt="Preston Lake" class="articleimage">
+
+            <h3>Preparing Your Home for the Cold Season</h3>
+
+            <span class="authorattribution">by Megan McBride</span>
+
+            <p>With the cooler temperatures setting in and the changing colors of the leaves, we know that Fall is on its way. What many of us aren't so quick to think about is the maintenance that Autumn requires of us.</p>
+
+            <p>There are countless articles on Google that emphasize all of the maintenance that every homeowner should consider, and it's a good idea to look into them further. In this article, we will cover a few of the basics in order to help prepare you and your loved ones for the oncoming cold season.</p>
+
+            <p><strong>I. CLEAN GUTTERS</strong></p> 
+            
+            <p>Cleaning and inspecting your gutters is one of the very first things that you should look into. This will give you a chance to make sure that no <i>friends</i> are living in or near your home, and to ensure that there are no cracks or breaks in your gutters.</p>
+
+            <p><strong>II. CHECK WINDOWS, DOORS, & ROOFS</strong></p>
+
+            <p>When looking over your roof, be sure to keep an eye out for any shingles that are raised or missing, especially since these will cause major problems once winter strikes. Windows should also be inspected to make sure that the molding is in good condition and that there are no noticeable drafts. Homeowners are also advised to look over the kickplates and seals on any external doors, as this can save you money with your heating bill later on.</p>
+
+            <p><strong>III. INSPECT YOUR BASEMENT</strong></p>
+
+            <p>Take a walk around the basement in your home and look for any signs of mildew, cracks, or any other reasons for concern. Run water down the drains, especially in any unused bathrooms, to ensure that there are no clogs and that your home won't be in danger of flooding and/or backups.</p>
+
+            <p><strong>IV. CHECK ANY SPRINKLERS, HOSES, & WATER SPOUTS</strong></p>
+
+            <p>No homeowner wants to have any pipes freeze and burst with the coming cold. This can be avoided easily by shutting down your sprinkler system and draining the pipes, removing hoses from any faucets and draining them, and insulating or covering any spigots/faucets.</p>
+
+            <p><strong>V. MOW, WEED & FEED YOUR LAWN</strong></p>
+
+            <p>One of the best ways to keep your lawn happy and healthy is to mow it one final time before the cold season sets in. Shorter grass also means that mice and voles will be less likely to call the place home. You should also fertilize your lawn before the first frost sets in, as this helps it to recover from the wear and tear of summer.</p>
+
+            <p>These may seem like daunting tasks initially, especially since all of us have busy schedules, but taking the time to make sure our homes are prepared for the cold season will save us time and a great deal of money. In taking care to avoid these problems, we can also ensure the safety and well-being of ourselves as well as our loved ones.</p>
+
         </div>
+
+    </main>
+
+</div>
 
         <!--Contact Info-->
         <section class="ContactInfo">
