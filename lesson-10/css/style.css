@@ -1,0 +1,95 @@
+.townbanner img {
+
+    width: 100%;
+
+}
+
+.townbanner {
+
+    margin-top: -150px;
+
+    margin-bottom: 100px;
+
+}
+
+.articleimage {
+
+    max-width: 75%;
+
+}
+.floatingcurrentweather {
+
+    position: relative;
+
+    top: 20px;
+
+    left: 30px;
+
+    max-width: 200px;
+
+    background-color: rgba(0, 48, 63, .9);
+
+    color: #CAE4DB;
+
+    padding: 10px;
+}
+.floatingcurrentweather {
+
+    position: relative;
+
+    top: 20px;
+
+    left: 30px;
+
+    max-width: 200px;
+
+    background-color: rgba(0, 48, 63, .9);
+
+    color: #CAE4DB;
+
+    padding: 10px;
+}
+
+div.town-data {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.town-data img {
+
+    max-width: 100%;
+
+}
+
+section.town-data-section {
+
+    max-width: 960px;
+
+    color: #00303F;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    padding: 30px;
+
+    background-color: #CAE4DB;
+
+    /*border-radius: 20px;*/
+
+    border: 1px solid #00303F;
+
+    box-shadow: 10px 10px 10px #7A9D96;
+
+    text-align: center;
+
+}
+
+.town-data-section img {
+
+    box-shadow: 10px 10px 10px #7A9D96;
+
+}

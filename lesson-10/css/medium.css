@@ -93,7 +93,13 @@
         .seccion-info{
             margin-bottom: 0%;
         }
+        .fivedaytable {
+
+            display: block;
     
+            margin-bottom: 20px;
+        
+        }
     
     }
 }

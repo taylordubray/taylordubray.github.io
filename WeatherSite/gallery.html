@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>RainOrSnow.net | Gallery</title>
+    <meta name="description" content="A collection of weather and landscape photos submitted by our users">
+
+    <link rel="stylesheet" href="/WeatherSite/css/normalize.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 801px)" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="#" alt="RainOrSnow.net Logo">
+        <section class="headings">
+            <h1>RainORSnow</h1>
+            <div class="motto">Way to Go, Idaho - Keeping Communities Connected since 2019</div>
+        </section>
+        <div class="conditions-home">
+            Please choose a city to view current conditions.
+        </div>
+    </header>
+
+    <nav>
+        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li id="current-page"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Gallery</h1>
+        <div class="gallery">
+            <figure>
+                <img src="/WeatherSite/galleryimages/lightning-and-gray-clouds-1162251.jpg" alt="Purple lightning over trees">
+                <figcaption>Electrophying Image</figcaption>
+            </figure>
+
+            <figure>
+                <img src="/WeatherSite/galleryimages/road-landscape-nature-forest-39811.jpg"
+                    alt="Rain dropping on road">
+                <figcaption>Rain on a random road</figcaption>
+            </figure>
+
+            <figure>
+                <img src="/WeatherSite/galleryimages/adventure-blue-calm-waters-climb-300857.jpg" alt="Frozen red berries in the winter">
+                <figcaption>Frozen red berries by Phil Foto</figcaption>
+            </figure>
+
+            <figure>
+                <img src="/WeatherSite/galleryimages/frozen-wave-against-sunlight-1210273.jpg" alt="Summer sunset over the prairie">
+                <figcaption>An amazing summer sunset by Joe Schmoe</figcaption>
+            </figure>
+
+            <figure>
+                <img src="/WeatherSite/galleryimages/green-grass-field-under-white-clouds-1048039.jpg" alt="Rolling brown hills in the countryside">
+                <figcaption>Lovely countryside by John Doe</figcaption>
+            </figure>
+
+            <figure>
+                <img src="/WeatherSite/galleryimages/nature-sky-sunset-the-mountains-66997.jpg" alt="Sunrise in the mountains">
+                <figcaption>Sun rise on a cloudy day in the mountains by Hugh Mann</figcaption>
+            </figure>
+        </div>
+        <br>
+        <button><a href="gallerycontest.html">Submit Your Photos</a></button>
+    </main>
+
+
+    <footer>
+        &copy;2019 Rain or Snow  | <a href="attrib.html">Attributions</a> | <a href="taylordubray.github.io">Taylor DuBray</a>
+        <div id='output'></div>
+        <script src="scripts/hamburgermenu.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/currentdate.js"></script>
+    </footer>
+</body>
+
+</html>
