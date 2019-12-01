@@ -1,130 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+    <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>WTGI Weather | Home</title>
-    <meta name="description" content="Home of WTGI Weather">
-
-    <link rel="stylesheet" href="https://kaqurei.github.io/css/normalize.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/small.css">
-    <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/medium.css">
-    <link rel="stylesheet" media="screen and (min-width: 801px)" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
-
-<body>
-
-    <header>
-        <img class="logo" src="images/weather-2371967_960_720.png" alt="WTGI Logo">
-        <section class="headings">
-            <h1>WTGI Weather</h1>
-            <div class="motto">Way to Go, Idaho - Keeping Communities Connected since 2019</div>
-        </section>
-        <div class="conditions-home">
-            Please choose a city to view current conditions.
-        </div>
-    </header>
-
-    <nav>
-        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
-        <ul class="menu">
-            <li id="current-page"><a href="#">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <div class="home-content-wrap">
-            <div class="item1">
-                <iframe
-                    src="https://www.google.org/crisismap/weather_and_events?hl=en&llbox=43.166%2C41.94%2C-110.862%2C-114.625&t=ROADMAP&layers=30%2C1%2C31%2C32%2C1340721332252%3A49%2C20%2C12%2Clayer9%2C2%2Clayer1%2C3%3A100"></iframe>
-            </div>
-            <div class="advisory">
-                <h2>Live Map</h2>
-                <h3>Provided by Google</h3>
-                <p>Please be advised of local weather conditions.</p>
-                <p>Use the Layers tab to filter map for clouds, percipitation, and storm information.</p>
-            </div>
-            <div class="item2 town-data">
-                <img src="images/preston.jpg" alt="The City of Preston, ID">
-            </div>
-            <div class="item3 town-data">
-                <img src="images/sodasprings.jpg" alt="Bear Lake, near Soda Springs, ID">
-            </div>
-            <div class="item4 town-data">
-                <img src="images/fishhaven.jpg" alt="The City of Preston, ID">
-            </div>
-        </div>
-
-        <br>
-        <h1>Gallery Spotlight</h1>
-
-        <div class="spotlight">
-            <span class="prev" onclick="plusSlides(-1)">&#9664;</span> <span class="next"
-                onclick="plusSlides(1)">&#9654;</span>
-
-            <div class="image-subtitle-wrap">
-                <div class="mySlides fade">
-                    <img src="images/gallery-images/summer-789974_960_720.jpg" alt="Summer sunset over the prairie">
-                    <br>
-                    <strong>Sunset by Joe Schmoe</strong>
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/gallery-images/hill-2165759_960_720.jpg"
-                        alt="Rolling brown hills in the countryside">
-                    <br>
-                    <strong>Countryside by by John Doe</strong>
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/gallery-images/frozen-201495_960_720.jpg" alt="Frozen red berries in the winter">
-                    <br>
-                    <strong>Frozen Berries by Phil Foto</strong>
-                </div>
-            </div>
-            <br>
-            <button><a href='gallery.html'>Gallery</a></button>
-        </div>
-        <br>
-        <div class="button-box">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
-
-        <br>
-        <h1>Contact Us</h1>
-        <div class="contact">
-            <p><strong>WTGI Weather</strong>
-                <br>321 Sesame Street
-                <br>Fish Haven, ID 83287</p>
-            <p> &#9742; 999.999.9999
-                <br>
-                &#9993; contact@wtgiweather.news
-            </p>
-            <div class="map"><img src="images/fishhavenmap.png" alt="Google Maps image of Fish Haven, Idaho"></div>
-        </div>
-
-    </main>
-
-    <footer>
-        &copy;2019 WTGI Weather | <a href="attrib.html">Attributions</a> | <a href="https://kaqurei.github.io/">Destyni
-            Shirley</a>
-        <div id='output'></div>
-        <script src="scripts/hamburgermenu.js"></script>
-        <script src="scripts/towndata.js"></script>
-        <script src="scripts/galleryslides.js"></script>
-        <script src="scripts/currentdate.js"></script>
-    </footer>
-</body>
-
-</html>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <meta name="Assignment portal page for Taylor DuBray Student in CIT 230: Web Frontend Development at Brigham Young University-Idaho." content="width=device-width, initial-scale=1">
+        
+    <title>CIT 230 Assignment Portal | Taylor M. DuBray Student | BYU-Idaho Online</title>
+        
+    </head>
+    <body>
+        <header>
+            <img src="./image/profilepic.jpg" width="320" height="370" alt="My Profile Picture">
+            <h1>Taylor Michael DuBray</h1>
+        </header>
+        <nav>
+        <h2>CIT 230 - Assignment Portal.</h2>
+            <!-- I will have different Menu Navigataion Bar Selections in my navigation bar-->
+                <ul>
+                <li>Lesson 1: <a href="https://github.com/taylordubray/taylordubray.github.io/blob/master/index.html">Course Portal Home Page</a></li>
+                <li>Lesson 2: <a href="/Lesson2/design-principles.html">Design Principles Document</a></li>
+                <li>Lesson 3: <a href="Lesson3/Index.html">Website Planning Document</a></li>
+                <li>Lesson 4: <a href="Lesson4/preston-4.html">Preston Town Page</a></li>
+                <li>Lesson 5: <a href="Lesson5/preston-5.html">Preston Town Page Round 2</a></li>
+                <li>Lesson 6: <a href="Lesson6/preston-6.html">Responsive Images and Font</a></li>
+                <li>Lesson 7: <a href="Lesson-7/lazyload.html">Lazy Loading Images</a> |  <a href="Lesson-7/gallery-7.html"> The Gallery Page</a></li>
+                <li>Lesson 8: <a href="Lesson-8/tablebuild.html">Table Build</a> | <a href="Lesson-8/stormcenter.html"> Storm Center Page</a></li>
+                <li>Lesson 9: <a href="lesson-9/prophets.html">Latter-day Prophet Card Page</a> |<a href="lesson-9/index.html"> The Weather Site Project</a></li>
+                <li>Lesson 10: <a href="lesson-10/preston-10.html">Preston Weather API</a></li>
+                <li>Lesson 11: <a href="/WeatherSite/index.html">Weather Site Project</a></li>
+            </ul>
+        </nav>
+        <main>
+        </main>
+        <footer>
+            <p>&copy; 2019 Taylor M. DuBray | Eagle Mountain Utah, USA | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a><p>
+                <p>Last Updated: 09/20/2019</p>
+        </footer>
+    </body>
