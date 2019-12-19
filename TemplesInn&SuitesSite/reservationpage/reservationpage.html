@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<title>Reservation Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/TemplesInn&SuitesSite/css/temples.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-large">
+    <!-- Temple Page  -->
+  <a href="#" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fa fa-bed w3-margin-right"></i>Reservation Page</a>
+    <!-- Emd Temple Page  -->
+    <a href="/TemplesInn&SuitesSite/templepage/templepage.html" class="w3-bar-item w3-button w3-mobile">Temples</a>
+    <a href="/TemplesInn&SuitesSite/reservationpage/reservationpage.html" class="w3-bar-item w3-button w3-mobile">Reservations</a>
+    <a href="/TemplesInn&SuitesSite/servicespage/servicespage.html" class="w3-bar-item w3-button w3-mobile">Services</a>
+    <a href="/TemplesInn&SuitesSite/contactpage/contactpage.html" class="w3-bar-item w3-button w3-mobile">Contact</a>
+    <a href="/TemplesInn&SuitesSite/reservationpage/reservationpage.html" class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile">Book Now</a>
+  </div>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content" style="max-width:1500px;">
+  <img class="w3-image" src="/TemplesInn&SuitesSite/reservationpage/reservationimages/0001802_nauvoo-temple-red-leaves_600.jpeg" alt="Navuoo Temple Red Leafs" style="min-width:1000px" width="1500" height="800">
+  <div class="w3-display-left w3-padding w3-col l6 m8">
+    <div class="w3-container w3-red">
+      <h2><i class="fa fa-bed w3-margin-right"></i> Reserve Rooms and Suites</h2>
+    </div>
+    <div class="w3-container w3-white w3-padding-16">
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-half w3-margin-bottom">
+                <label><i class="#"></i> Location</label>
+                <input class="w3-input w3-border" type="text" placeholder="Temple Name" name="Temple Name" required>
+              </div>
+            <div class="w3-container w3-white w3-padding-16">
+              <form action="/action_page.php" target="_blank">
+                <div class="w3-half w3-margin-bottom">
+                        <label><i class="#"></i> Number of Rooms</label>
+                        <input class="w3-input w3-border" type="number" placeholder="1-10" name="number" required>
+                      </div>
+        <div class="w3-row-padding" style="margin:0 -16px;">
+            <div class="w3-half w3-margin-bottom">
+            <label><i class="fa fa-calendar-o"></i> Check In</label>
+            <input class="w3-input w3-border" type="text" placeholder="DD/MM/YYYY" name="CheckIn" required>
+          </div>
+          <div class="w3-half">
+            <label><i class="fa fa-calendar-o"></i> Check Out</label>
+            <input class="w3-input w3-border" type="text" placeholder="DD/MM/YYYY" name="CheckOut" required>
+          </div>
+        </div>
+
+        <div class="w3-row-padding" style="margin:0 -16px;">
+                <div class="w3-half w3-margin-bottom">
+                <label><i class=""></i> First Name</label>
+                <input class="w3-input w3-border" type="text" placeholder="First Name" name="First Name" required>
+              </div>
+              <div class="w3-half">
+                <label><i class="#"></i> Last Name</label>
+                <input class="w3-input w3-border" type="text" placeholder="Last Name" name="Last Name" required>
+              </div>
+            </div>
+            <div class="w3-row-padding" style="margin:0 -16px;">
+                    <div class="w3-half w3-margin-bottom">
+                    <label><i class=""></i> Email Address </label>
+                    <input class="w3-input w3-border" type="text" placeholder="example@example.com" name="example@example.com" required>                  </div>
+                  <div class="w3-half">
+                    <label><i class="#"></i> Phone Number</label>
+                    <input class="w3-input w3-border" type="text" placeholder="(801)888-5555" name="(801)888-5555" required>                  </div>
+                </div>
+            <div class="w3-half w3-margin-bottom">
+                 <div class="w3-half">
+                     <label><i class="#"></i> Current Country or State</label>
+                      <input class="w3-input w3-border" type="text" placeholder="Utah, USA / SPN,NZL" name="example@Utah, USA / SPN,NZL" required>
+                  </div>
+            </div>
+            <div class="w3-half w3-margin-bottom">
+                    <div class="w3-half">
+                        <label><i class="#"></i> Special Accomidations</label>
+                         <input class="w3-input w3-border" type="text" placeholder="Please tell us more!" name="Please tell us more!" required>
+                     </div>
+               </div>
+           
+                                                    
+        <button class="w3-button w3-dark-grey" type="submit"><i class="fa fa-search w3-margin-bottom-right"></i> Reserve</button>
+      </form>
+    </div>
+  </div>
+</header>
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="/TemplesInn&SuitesSite/TempleImages/cozy-modern-bedroom-3144580.jpg" alt="Room" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Single Family Room</h3>
+        <h6 class="w3-opacity">Free!</h6>
+        <p>2 Queen Size Beds</p>
+        <p>2-4 People Occupancy</p>
+        <p>Free Breakfast!</p>
+        <p>Free WiFi</p>
+        <p>Temple Shuttle</p>
+        <p>Family history consultation and family ordinance card service</p>
+        <p>2 Minute walk from Temple<sup></sup></p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Room</button>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="/TemplesInn&SuitesSite/TempleImages/macbook-pro-on-table-2764182.jpg" alt="Norway" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Multi-Family Rooms</h3>
+        <h6 class="w3-opacity">Free!</h6>
+        <p>2 Queen Beds Size Beds</p>
+        <p>2 Twin Beds</p>
+        <p>Pull Out Couch</p>
+        <p>4-6 People Occupancy</p>
+        <p>Free Breakfast!</p>
+        <p>Free WiFi</p>
+        <p>Temple Shuttle</p>
+        <p>Family history consultation and family ordinance card service</p>
+        <p>2 Minute walk from Temple<sup></sup></p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Room</button>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="/TemplesInn&SuitesSite/TempleImages/apartment-bed-bedroom-chair-271624.jpg" alt="Norway" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Large Mormon Family Suite</h3>
+        <h6 class="w3-opacity">Free!</h6>
+        <p>4 Queen Beds Size Beds</p>
+        <p>4 Twin Beds</p>
+        <p>Pull Out Couch</p>
+        <p>8-16 People Occupancy</p>
+        <p>Free Breakfast!</p>
+        <p>Free WiFi</p>
+        <p>Temple Shuttle</p>
+        <p>Family history consultation and family ordinance card service</p>
+        <p>2 Minute walk from Temple<sup></sup></p>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i> <i class="fa fa-glass"></i> <i class="fa fa-cutlery"></i></p>
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Room</button>
+      </div>
+    </div>
+  </div>
+  <!--End of Room Reservation-->
+  <!-- Footer -->
+<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+        <h5>Find Us On</h5>
+        <div class="w3-xlarge w3-padding-16">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>&copy; Taylor DuBray | BYU-Idaho Online | CIT 230 </p> 
+        <p> <a href="https://taylordubray.github.io/templesinn&suites.html" target="_blank" class="w3-hover-text-green"> Taylor DuBray Github </p>
+      </footer>
+      
+      <!-- Add Google Maps -->
+      <script>
+      function myMap() {
+        myCenter=new google.maps.LatLng(41.878114, -87.629798);
+        var mapOptions= {
+          center:myCenter,
+          zoom:12, scrollwheel: false, draggable: false,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+      
+        var marker = new google.maps.Marker({
+          position: myCenter,
+        });
+        marker.setMap(map);
+      }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+      <!--
+      To use this code on your website, get a free API key from Google.
+      Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+      -->
+      
+      </body>
+      </html>
+      
